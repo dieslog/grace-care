@@ -19,7 +19,7 @@ try {
     $mail->setLanguage('en', 'phpmailer/language/directory/');
 
     $mail->setFrom('info@grace-care.com', 'Mailer');
-    $mail->addAddress('joe@example.net', 'Joe User');
+    $mail->addAddress('elmer@gracepointcare.homes', 'Grace Point Care');
     $mail->Subject = '(Care Homes) New message from ' . $name;
 
     $body = "Name: {$name} \n\r" .
